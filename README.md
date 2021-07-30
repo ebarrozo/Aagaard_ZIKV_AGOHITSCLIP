@@ -16,7 +16,7 @@ GEO Contents: Raw fastq and processed counts matrices are available at GEO Acces
 
 (D) Bash and R scripts used for analyzing Lum et al. (2019) term placenta datasets.
 
-(E) Bask and R scripts used to download and analyze the Dang et al. (2019) miR-seq, bulk RNA-seq, and iCLIP datasets.
+(E) Bash and R scripts used to download and analyze the Dang et al. (2019) miR-seq, bulk RNA-seq, and iCLIP datasets.
 
 # Workflow
 Reads were pre-processed, and quality filtered using FastqQC (v0.11.9). 
