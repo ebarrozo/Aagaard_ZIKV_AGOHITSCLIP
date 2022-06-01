@@ -7,7 +7,7 @@ Argonaut High-throughput Sequencing UV-crosslinking and Immunoprecipitation (AGO
 Ribonomics analyses. Reads were pre-processed and quality filtered using FastqQC (v0.11.9). Barcodes and adapters were trimmed using Trimmomatic79 (v0.33). Reads were aligned to custom human + ZIKV + hsa-miRbase transcriptome (see GRCh38.p13_and_NC_012532.1_and_hsamiRbase22.1.gtf) using STAR80 (v2.7.8). PCR duplicate reads were removed using Picard81 (v2.24.0). Unique reads were counted using HTseq82 (v0.11.1). Counts from the 5 mock and 4 infected biological replicates were used for differential expression (DE) analysis in R (v4.0.2) using DEseq283 (v3.12). AGO-HITS-CLIP peaks were called with Piranha84 (v1.2.1) or PureCLIP85 (v1.3.1). Positive or negative-sense reads-per-million-scaled (RPM) reads, and CLIP peaks were converted to bigwig files for visualization on the UCSC genome browser86 (hg38). Host miRNAs with different accumulation levels were analyzed by mirPath26 (v3, DIANA Tools) using the MicroT-CDS database25 (v5) and visualized using the Kanehisa Laboratories Pathway Viewer.
 
 
-GEO Contents: Raw fastq and processed counts matrices are available at GEO Accession GSEXXXXXX. The custom human + ZIKV + hsa-miRbase reference (GRCh38.p13_and_NC_012532.1_and_hsamiRbase22.1.gtf) is also provided. 
+GEO Contents: Raw fastq and processed counts matrices are available at GEO Accession GSEXXXXXX. The custom human + ZIKV + hsa-miRbase reference (GRCh38.p13_and_NC_012532.1_and_hsamiRbase22.1.gtf) is provided here. 
 
 # Repository Contents
 
