@@ -7,7 +7,7 @@
 # Department of Obstetrics & Gynecology, Division of Maternal-Fetal Medicine
 
 ## Analyze data on AagaardLab2
-# http://10.16.5.154:8787
+# 
 
 
 ## Untouched data copied to aagaardlab2 via raid2
